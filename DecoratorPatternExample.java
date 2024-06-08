@@ -1,4 +1,4 @@
-public class Main
+public class DecoratorPatternExample
 {
   public static void main (String[]args)
   {
