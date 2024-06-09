@@ -1,4 +1,4 @@
-#DecoratorPattern
+# DecoratorPattern
 
 Used when we need a wrapper for a given object, which allows us to "extend" the capabilities of the base object with the capabilities of the decorators superimposed on it.
 It is done by tightly coupling the abstract decorator class, which is used so that specific decorators do not inherit directly from the base class, which prevents an unstable structure for maintaining the code, such as:
